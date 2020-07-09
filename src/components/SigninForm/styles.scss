@@ -1,0 +1,35 @@
+.signin {
+  width: 340px;
+  height: 500px;
+  padding-top: 10%;
+  @media (max-width: 768px) {
+    padding-top: 20%;
+  }
+  &__title {
+    font-weight: 300;
+    color: #999;
+    margin: 1rem 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .auth-btn {
+    align-self: center;
+    background-color: #fff;
+    border: none;
+    color: #999;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    outline: none;
+    height: 34px;
+    width: 80%;
+    transition: 0.45s;
+    &:hover {
+      background-color: #666;
+      color: #fff;
+    }
+  }
+}

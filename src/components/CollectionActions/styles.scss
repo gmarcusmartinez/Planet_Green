@@ -1,0 +1,32 @@
+.collection-actions {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  &__sort {
+    color: #bbb;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    span {
+      cursor: pointer;
+    }
+  }
+  &__filter {
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: #bbb;
+    margin-right: 1rem;
+    padding: 1rem 0.25rem;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  ::placeholder {
+    color: #bbb;
+    opacity: 1;
+    font-size: 20px;
+  }
+}

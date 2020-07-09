@@ -1,0 +1,21 @@
+.cart-screen {
+  height: 100%;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  max-width: 768px;
+  &__headers {
+    border: 1px solid #eee;
+    color: #bbb;
+    display: grid;
+    grid-template-columns: 100px repeat(2, 1fr) max-content 80px;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  &__total {
+    color: #bbb;
+    width: 180px;
+    margin-top: 1rem;
+    margin-left: calc(100% - 180px);
+  }
+}

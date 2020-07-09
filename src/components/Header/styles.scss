@@ -1,0 +1,42 @@
+.header {
+  padding: 1rem;
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  .title {
+    font-weight: 300;
+    color: #bbb;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+  .app-theme-link {
+    color: #bbb;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  .auth-link,
+  .cart {
+    color: #bbb;
+    margin-left: auto;
+    letter-spacing: 0.1rem;
+    outline: none;
+  }
+  .cart {
+    text-decoration: none;
+  }
+}
+.user-details {
+  display: flex;
+  color: #bbb;
+  margin-left: auto;
+  letter-spacing: 0.1rem;
+  font-size: 16px;
+  .user-name {
+    margin-right: 1rem;
+  }
+}
