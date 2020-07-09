@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { register } from '../../store/actions/auth';
-import FormInput from '../FormInput/FormInput';
+import FormInput from '../FormCommon/FormInput';
 
 const RegisterForm = ({ register }) => {
   const [formData, setFormData] = React.useState({

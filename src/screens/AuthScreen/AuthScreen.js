@@ -1,6 +1,7 @@
 import React from 'react';
 import SigninForm from '../../components/SigninForm/SigninForm';
 import RegisterForm from '../../components/RegisterForm/RegisterForm';
+
 const AuthScreen = () => {
   return (
     <div className='auth-screen'>

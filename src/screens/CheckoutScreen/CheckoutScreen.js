@@ -4,7 +4,7 @@ import * as STEPS from '../../components/CheckoutSteps';
 
 const CheckoutScreen = () => {
   const [step, setStep] = React.useState('DETAILS');
-  const [userInfo, setUserInfo] = React.useState(defaultUserInfoState);
+  const [formData, setFormData] = React.useState(defaultUserInfoState);
 
   const renderContent = () => {
     switch (step) {
@@ -12,16 +12,19 @@ const CheckoutScreen = () => {
         return (
           <STEPS.UserInfo
             setStep={setStep}
-            userInfo={userInfo}
-            setUserInfo={setUserInfo}
+            formData={formData}
+            setFormData={setFormData}
           />
         );
+
       case 'PAYMENT':
         return <STEPS.PaymentInfo setStep={setStep} />;
       case 'CONFIRM':
         return <STEPS.ConfirmDetails setStep={setStep} />;
       case 'SUCCESS':
         return <STEPS.OrderSuccess />;
+      default:
+        return null;
     }
   };
   return <div className='checkout-screen'>{renderContent()}</div>;

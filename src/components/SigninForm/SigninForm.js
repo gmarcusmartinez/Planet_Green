@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { signin } from '../../store/actions/auth';
-import FormInput from '../FormInput/FormInput';
+import FormInput from '../FormCommon/FormInput';
 
 const SigninForm = ({ signin }) => {
   const [formData, setFormData] = React.useState({
@@ -11,10 +11,7 @@ const SigninForm = ({ signin }) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {

@@ -1,0 +1,47 @@
+.user-info {
+  width: 480px;
+  color: #bbb;
+  &__title {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+.checkout-steps-btn {
+  width: 50%;
+  margin-left: auto;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  background-color: #b8d8be;
+  color: #fff;
+  transition: 0.25s ease-in;
+  &:hover {
+    background-color: #97c6a0;
+  }
+}
+.billing-checkbox {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  input {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 2px solid #eee;
+
+    padding: 9px;
+    display: inline-block;
+    &:checked {
+      background-color: #b8d8be;
+      border: 2px solid #b8d8be;
+    }
+  }
+  label {
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+}

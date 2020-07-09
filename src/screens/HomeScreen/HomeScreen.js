@@ -1,10 +1,10 @@
 import React from 'react';
 import { categories } from './data';
-import CategoryPreview from '../../components/CategoryPreview/CategoryPreview';
+import CollectionPreview from '../../components/CollectionPreview';
 
 const HomeScreen = () => {
   let list = categories.map((c) => (
-    <CategoryPreview category={c} key={c.routeParam} />
+    <CollectionPreview category={c} key={c.routeParam} />
   ));
   return <div className='home-screen'>{list}</div>;
 };

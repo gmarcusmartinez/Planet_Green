@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CategoryPreview = ({ category }) => {
+const CollectionPreview = ({ category }) => {
   const { title, imgSrc, routeParam } = category;
   const imageStyles = { backgroundImage: `url(${imgSrc})` };
   return (
-    <Link to={`/shop/${routeParam}`} className='category-preview'>
+    <Link to={`/shop/${routeParam}`} className='collection-preview'>
       <div className='background-image' style={imageStyles}></div>
-      <div className='category-preview__title'>{title}</div>
+      <div className='collection-preview__title'>{title}</div>
     </Link>
   );
 };
 
-export default CategoryPreview;
+export default CollectionPreview;

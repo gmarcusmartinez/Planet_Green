@@ -22,7 +22,9 @@ const Header = ({ currentUser, signout }) => {
   return (
     <div className='header'>
       <Link to='/' className='app-theme-link'>
-        <h1 className='title'>Planet Green</h1>
+        <h1 className='title'>
+          Planet <span>Green</span>
+        </h1>
       </Link>
       {renderSigninBtn()}
     </div>

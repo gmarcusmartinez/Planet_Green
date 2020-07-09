@@ -4,15 +4,16 @@
 @import '../screens/CartScreen/styles';
 @import '../screens/AuthScreen/styles';
 @import '../screens/HomeScreen/styles';
+@import '../screens/CheckoutScreen/styles';
 @import '../screens/CollectionScreen/styles';
 @import '../screens/ProductDetailScreen/styles';
 
 @import '../components/Header/styles';
 @import '../components/CartItem/styles';
-@import '../components/FormInput/styles';
+@import '../components/FormCommon/styles';
 @import '../components/SigninForm/styles';
 @import '../components/ProductDetail/styles';
+@import '../components/CheckoutSteps/styles';
 @import '../components/CollectionItem/styles';
 @import '../components/CollectionActions/styles';
-
-@import '../components/CategoryPreview/styles';
+@import '../components/CollectionPreview/styles';
