@@ -18,6 +18,12 @@
   &__description {
     max-width: 300px;
   }
+  &__image {
+    max-width: 450px;
+    img {
+      object-fit: cover;
+    }
+  }
 }
 .app-theme-btn {
   display: flex;

@@ -13,11 +13,13 @@ export const products = (state = initialState, action) => {
     case GET_PRODUCTS:
       return {
         ...state,
+        loading: false,
         items: payload,
       };
     case GET_PRODUCT:
       return {
         ...state,
+        loading: false,
         item: payload,
       };
     case SORT_PRODUCTS:
