@@ -1,6 +1,6 @@
 import React from 'react';
-import FormInput from '../FormCommon/FormInput';
-import CheckoutStepsBtn from './CheckoutStepsBtn';
+import CheckoutStepsBtn from '../CheckoutStepsBtn';
+import FormInput from '../../FormCommon/FormInput';
 
 const UserInfo = ({ setFormData, formData, setStep }) => {
   const [hideBillingAddress, setHideBillingAddress] = React.useState(false);
@@ -11,16 +11,10 @@ const UserInfo = ({ setFormData, formData, setStep }) => {
     console.log(formData);
   };
 
-  const renderNextStepBtn = () => {
-    for (const [key, value] of Object.entries(formData))
-      if (value === '')
-        return (
-          <CheckoutStepsBtn
-            text='PAYMENT DETAILS'
-            setStep={setStep}
-            step='PAYMENT'
-          />
-        );
+  const renderNextStepBtn = (text, step) => {
+    for (const [, value] of Object.entries(formData))
+      if (value !== '')
+        return <CheckoutStepsBtn text={text} setStep={setStep} step={step} />;
       else return null;
   };
   return (
@@ -94,7 +88,7 @@ const UserInfo = ({ setFormData, formData, setStep }) => {
           />
         </span>
       ) : null}
-      {renderNextStepBtn()}
+      {renderNextStepBtn('PAYMENT DETAILS', 'PAYMENT')}
     </div>
   );
 };

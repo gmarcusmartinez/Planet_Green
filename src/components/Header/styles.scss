@@ -15,22 +15,26 @@
       color: #d2e7d6;
     }
   }
-  .app-theme-link {
+  .app-theme-link,
+  .cart {
     color: #bbb;
     cursor: pointer;
     letter-spacing: 0.1rem;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     text-decoration: none;
   }
-  .auth-link,
-  .cart {
-    color: #bbb;
-    margin-left: auto;
-    letter-spacing: 0.1rem;
-    outline: none;
-  }
-  .cart {
-    text-decoration: none;
+
+  @media (max-width: 540px) {
+    .title {
+      font-size: 1.4rem;
+    }
+    .app-theme-link,
+    .cart {
+      font-size: 0.9rem;
+    }
+    .user-details {
+      font-size: 0.9rem;
+    }
   }
 }
 .user-details {
@@ -38,7 +42,7 @@
   color: #bbb;
   margin-left: auto;
   letter-spacing: 0.1rem;
-  font-size: 16px;
+  font-size: 1rem;
   .user-name {
     margin-right: 1rem;
   }

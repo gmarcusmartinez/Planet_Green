@@ -13,7 +13,10 @@
 @import '../components/FormCommon/styles';
 @import '../components/SigninForm/styles';
 @import '../components/ProductDetail/styles';
-@import '../components/CheckoutSteps/styles';
 @import '../components/CollectionItem/styles';
 @import '../components/CollectionActions/styles';
 @import '../components/CollectionPreview/styles';
+
+@import '../components/CheckoutSteps/UserInfo/styles';
+@import '../components/CheckoutSteps/PaymentInfo/styles';
+@import '../components/CheckoutSteps/CheckoutStepsBtn/styles';
