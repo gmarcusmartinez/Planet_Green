@@ -11,16 +11,21 @@ const PaymentInfo = ({ setStep }) => {
     securityCode: '',
   });
 
+  const { cardNumber, cardName, expiration, securityCode } = formData;
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  const { cardNumber, cardName, expiration, securityCode } = formData;
 
-  const renderNextStepBtn = (text, step) =>
+  const renderNextStepBtn = (step) =>
     cardNumber && cardName && expiration && securityCode ? (
-      <CheckoutStepsBtn text={text} setStep={setStep} step={step} />
+      <CheckoutStepsBtn
+        text='REVIEW ORDER &#10095;'
+        setStep={setStep}
+        step={step}
+      />
     ) : null;
+
   return (
     <div className='payment-info'>
       <Card formData={formData} />
@@ -59,7 +64,7 @@ const PaymentInfo = ({ setStep }) => {
             step='DETAILS'
             text='&#10094; SHIPPING & BILLING'
           />
-          {renderNextStepBtn('CONFIRM DETAILS', 'CONFIRM')}
+          {renderNextStepBtn('CONFIRM')}
         </div>
       </div>
     </div>

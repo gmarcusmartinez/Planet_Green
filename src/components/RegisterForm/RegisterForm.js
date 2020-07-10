@@ -24,8 +24,8 @@ const RegisterForm = ({ register }) => {
   };
   const { name, email, password, confirmPassword } = formData;
   return (
-    <div className='signin'>
-      <h2 className='signin__title'>Register for a new account</h2>
+    <div className='register'>
+      <h2 className='register__title'>Register for a new account</h2>
       <form onSubmit={handleSubmit}>
         <FormInput
           label='Name'

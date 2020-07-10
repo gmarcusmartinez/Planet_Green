@@ -8,7 +8,7 @@ const CollectionActions = ({ sortProducts, setFilterText }) => {
       <input
         className='collection-actions__filter'
         type='text'
-        placeholder='Search'
+        placeholder='Search...'
         onChange={(e) => setFilterText(e.target.value)}
       />
       <div className='collection-actions__sort'>

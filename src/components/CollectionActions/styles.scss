@@ -17,16 +17,16 @@
     width: 200px;
     border: none;
     color: #bbb;
-    margin-right: 1rem;
+    margin-right: auto;
     padding: 1rem 0.25rem;
     outline: none;
     font-size: 18px;
-    letter-spacing: 2px;
     text-transform: uppercase;
   }
   ::placeholder {
-    color: #bbb;
+    letter-spacing: 4px;
+    color: #ddd;
     opacity: 1;
-    font-size: 20px;
+    font-size: 22px;
   }
 }

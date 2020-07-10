@@ -11,12 +11,19 @@ const UserInfo = ({ setFormData, formData, setStep }) => {
     console.log(formData);
   };
 
-  const renderNextStepBtn = (text, step) => {
+  const renderNextStepBtn = (step) => {
     for (const [, value] of Object.entries(formData))
       if (value !== '')
-        return <CheckoutStepsBtn text={text} setStep={setStep} step={step} />;
+        return (
+          <CheckoutStepsBtn
+            text='PAYMENT DETAILS &#10095;'
+            setStep={setStep}
+            step={step}
+          />
+        );
       else return null;
   };
+
   return (
     <div className='user-info'>
       <h2 className='user-info__title'>Shipping Address</h2>
@@ -88,7 +95,7 @@ const UserInfo = ({ setFormData, formData, setStep }) => {
           />
         </span>
       ) : null}
-      {renderNextStepBtn('PAYMENT DETAILS', 'PAYMENT')}
+      {renderNextStepBtn('PAYMENT')}
     </div>
   );
 };
