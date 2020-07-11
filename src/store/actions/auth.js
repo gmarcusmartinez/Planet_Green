@@ -1,6 +1,7 @@
 import axios from 'axios';
-import { SIGNIN, GET_CURRENT_USER, SIGNOUT } from './types';
+import { setAlert } from './alerts';
 import history from '../../core/history';
+import { SIGNIN, GET_CURRENT_USER, SIGNOUT, SET_ALERT } from './types';
 
 export const getCurrentUser = () => async (dispatch) => {
   const res = await axios.get('/api/auth/me');
@@ -18,7 +19,10 @@ export const signin = (formData) => async (dispatch) => {
     dispatch({ type: SIGNIN, payload: data });
     history.push('/');
   } catch (err) {
-    console.log(err);
+    const errors = err.response.data.errors;
+    if (errors) {
+      errors.forEach((e) => dispatch(setAlert(e.msg, 'error')));
+    }
   }
 };
 
@@ -28,7 +32,10 @@ export const register = (formData) => async (dispatch) => {
     dispatch({ type: SIGNIN, payload: data });
     history.push('/');
   } catch (err) {
-    console.log(err);
+    const errors = err.response.data.errors;
+    if (errors) {
+      errors.forEach((e) => dispatch(setAlert(e.msg, 'error')));
+    }
   }
 };
 

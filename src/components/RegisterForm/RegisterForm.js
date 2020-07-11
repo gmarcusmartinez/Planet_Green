@@ -2,8 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { register } from '../../store/actions/auth';
 import FormInput from '../FormCommon/FormInput';
+import { setAlert } from '../../store/actions/alerts';
 
-const RegisterForm = ({ register }) => {
+const RegisterForm = ({ register, setAlert }) => {
   const [formData, setFormData] = React.useState({
     email: '',
     name: '',
@@ -18,7 +19,7 @@ const RegisterForm = ({ register }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (password !== confirmPassword) alert('Passwords must match');
+    if (password !== confirmPassword) setAlert('Passwords must match', 'error');
     register(formData);
     setFormData({ name: '', email: '', password: '', confirmPassword: '' });
   };
@@ -61,4 +62,4 @@ const RegisterForm = ({ register }) => {
   );
 };
 
-export default connect(null, { register })(RegisterForm);
+export default connect(null, { register, setAlert })(RegisterForm);

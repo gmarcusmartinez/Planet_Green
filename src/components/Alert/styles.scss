@@ -1,0 +1,14 @@
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .alert {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+
+.error {
+  background-color: transparent;
+  color: #ff817b;
+}
