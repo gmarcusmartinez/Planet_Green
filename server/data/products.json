@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Cast Iron Plant",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 12.99,
+    "category": "indoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 4,
+    "numReviews": 4
+  },
+  {
+    "name": "Bird Of Paradise",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 25.99,
+    "category": "outdoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 3,
+    "numReviews": 4
+  },
+  {
+    "name": "Boston Fern",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 20.99,
+    "category": "indoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 5,
+    "numReviews": 4
+  },
+  {
+    "name": "Beach Spider Lily",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 14.99,
+    "category": "outdoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 4,
+    "numReviews": 4
+  },
+  {
+    "name": "African Violet",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 22.99,
+    "category": "indoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 4,
+    "numReviews": 4
+  },
+  {
+    "name": "Fiddle-Leaf Fig",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 18.99,
+    "category": "indoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 4,
+    "numReviews": 4
+  },
+  {
+    "name": "Spider Plant",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 11.99,
+    "category": "outdoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 3,
+    "numReviews": 4
+  },
+  {
+    "name": "Canary Date Palm",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 29.99,
+    "category": "outdoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 3,
+    "numReviews": 4
+  },
+  {
+    "name": "Fern",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 11.99,
+    "category": "indoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 3,
+    "numReviews": 4
+  },
+  {
+    "name": "Coral Bead",
+    "image": "https://lh3.googleusercontent.com/sirHps_JlMH-Z2t4zmoeNsMYu4h0q3QE7MoLRxjAP-7lCO3fQA1Rq8ZaIsgtHzUR6FbXLiFexylaCa8DgLgGNnK7uD3sKz-WNfFaO6DBZKhrj2H_FA-XZtR_wcy1XSmsqL52QGtEqA=w2400",
+    "price": 12.99,
+    "category": "outdoor",
+    "countInStock": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus quod accusamus iste reiciendis tempore illum velit neque amet consequuntur incidunt minima dolore pariatur impedit deserunt, id deleniti ullam non ipsum quidem facilis. Nulla, consequatur. Suscipit porro cum aspernatur! Est!",
+    "rating": 3,
+    "numReviews": 4
+  }
+]

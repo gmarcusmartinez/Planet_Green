@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { setAlert } from './alerts';
 import history from '../../core/history';
-import { SIGNIN, GET_CURRENT_USER, SIGNOUT, SET_ALERT } from './types';
+import { SIGNIN, GET_CURRENT_USER, SIGNOUT } from './types';
 
 export const getCurrentUser = () => async (dispatch) => {
   const res = await axios.get('/api/auth/me');
